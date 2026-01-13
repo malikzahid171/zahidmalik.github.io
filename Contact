@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us - Carpet Craft Interior Ltd</title>
+    <style>
+        body { font-family: Arial; background: #f4f4f4; margin: 0; }
+        header, footer { background: #6b3e26; color: white; text-align: center; padding: 15px; }
+        nav { background: #4b2a1a; padding: 10px; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; }
+        .container { padding: 30px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Contact Us</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+    <p><strong>📞 Phone:</strong> 07951618888</p>
+    <p><strong>📍 Address:</strong> 334 Ashcroft Road, Luton, LU2 9AF</p>
+
+    <p>
+        We provide a **mobile carpet service** — we come to your door with samples
+        and offer **free measurement** for your convenience.
+    </p>
+</div>
+
+<footer>
+    <p>Call us today for a free quote</p>
+</footer>
+
+</body>
+</html>
