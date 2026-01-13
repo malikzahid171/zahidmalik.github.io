@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gallery - Carpet Craft Interior Ltd</title>
+    <style>
+        body { font-family: Arial; background: #f4f4f4; margin: 0; }
+        header, footer { background: #6b3e26; color: white; text-align: center; padding: 15px; }
+        nav { background: #4b2a1a; padding: 10px; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; }
+        .container { padding: 30px; }
+        img { width: 250px; margin: 10px; border-radius: 5px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Our Carpet Gallery</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+    <h2>Upload Carpet Image (Preview)</h2>
+    <input type="file" accept="image/*" onchange="previewImage(event)">
+
+    <div>
+        <img id="preview" />
+    </div>
+</div>
+
+<footer>
+    <p>Carpet Craft Interior Ltd</p>
+</footer>
+
+<script>
+function previewImage(event) {
+    const img = document.getElementById('preview');
+    img.src = URL.createObjectURL(event.target.files[0]);
+}
+</script>
+
+</body>
+</html>
